@@ -1,0 +1,12 @@
+.user_top{border:1px solid #d1d1d1;font-size: 14px;padding:20px;}
+.user_top_left_face{float:left;}
+.user_top_right{margin-left:20px; float: left}
+.user_face{width:100px;height:100px;border:1px solid #f0f0f0;}
+.user_content{border:1px solid black;padding:10px;}
+.user_nav{background-color: #f0f0f0;border:1px solid #f2f2f2;}
+.user_nav ul{margin: 0;padding: 0}
+.user_nav ul li{float:left;padding:10px;}
+.user_content_right{padding:0 20px;}
+.user_info ul li{float:left;width:45%;padding:2%;}
+.user_from_submit{margin: 0px 45%;}
+.user_info form ul li label{display:inline-block;width:20%;text-align: right}

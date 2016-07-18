@@ -1,0 +1,51 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title></title>
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" /> 
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/base.css"> 
+        <script type="text/javascript" src="__PUBLIC__/js/jquery-3.1.0.min.js"></script>
+    </head>    
+    <script>
+        $(function(){
+            $('.logininfo').hover(function(){
+                $('.loginlist').show();
+            },function(){
+                $('.loginlist').hide();
+            });
+        })
+    </script>
+    <body>
+        <div class='top'>
+            <div class='center'>
+                <div class='nav fl'>
+                    <a href='__ROOT__' target="_self"><div ></div>S站</a>
+                </div>
+
+                <div class='nav fl acitiv'>
+                    <a target="_self" href="{:U('detail/detailList')}">线下活动</a>
+                </div>
+                <div class='nav fl'>
+                    <a target="_self" href="{:U('photographic/photolist')}">摄影需求</a>
+                </div>
+                <if condition='1'>
+                    <div class='nav fr logininfo'>
+                        <span>livebabys</span> 
+                        <nav class='loginlist'>
+                            <a href='{:U("user/index")}'>个人中心</a>
+                            <a href=''>资料修改</a>
+                        </nav>       
+                    </div>
+                <else/>
+                <div class='nav fr'>
+                        <a href="
+                        {:U('login/index')}">登录/注册</a>        
+                </div>
+                </if>
+                <div class='clear'></div>
+            </div>
+        </div>

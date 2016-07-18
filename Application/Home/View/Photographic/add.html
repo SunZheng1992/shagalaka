@@ -1,0 +1,31 @@
+<include file='Public/top'/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/detail.css">
+<div class='main detail'>
+    <div class='detail_top'>
+        <div class='detail_mid'>
+            <form method='post' action=''>
+                <p>标题：<input type='text' name='title' value=''></p>
+                <p>我是：<select>
+                            <option>请选择</option>
+                            <option>摄影师</option>
+                            <option>模特</option>
+                            <option>店主</option>
+                        </select>
+                </p>
+                <p>我需要：
+                    <span>模特<input type='checkbox' name='need'></span>
+                    <span>摄影<input type='checkbox' name='need'></span>
+                    <span>店主<input type='checkbox' name='need'></span>
+                </p>
+                <p>收费金额：<input type='text' name='money' value=''> 
+                </p>
+                <p>摄影地点：<input type='text' name='address'></p>
+                <p>详细描述：<textarea name='content'></textarea></p>
+               <input type='submit' value='提交'>
+        </form>
+        </div>
+    </div>
+ 
+
+</div>
+<include file='Public/bottom'/>

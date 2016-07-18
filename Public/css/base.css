@@ -1,0 +1,54 @@
+body{width:100%;padding:0;margin:0;font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft Yahei",Sans-serif,Verdana;}
+a{text-decoration: none;color:white;}
+.main{min-width:1000px;width:70%;margin:0 auto;overflow: hidden;}
+.top{height:50px;background-color:black;color:white;border-bottom:2px solid #cd3333;min-width:1000px}
+.center{min-width:900px;margin:0 auto; width:70%;}
+.fl{float:left;}
+.fr{float:right;}
+.nav{padding:0px 10px;height:50px;text-align:center;line-height: 50px;}
+.acitiv{background-color:red}
+.clear{clear: both;}
+.pd5{padding:5px;}
+.homelogin{background-color:red;width:27%;}
+.slide{max-width:100%;overflow: hidden;}
+.main_content{}
+.search{background-color:#f0f0f0;height:30px;margin-top: 10px;}
+.search_checkbox{float:left;margin:4px 10px;}
+.user_face img{border-radius: 50%;}
+.face{float:left;}
+.box{padding:20px;border:1px solid #f0f0f0;width:27%;margin:1%;overflow: hidden;float: left;}
+.box_top{border-bottom:1px solid #f0f0f0;padding-bottom:15px;}
+.box_top_right{margin-left:20px;float:left;}
+.box_top_right div a{color: blue;font-size:14px;}
+.box_top_time{color:#A6A6A6;}
+.box a{color:black;}
+.box_mid{line-height:50px;}
+.box_mid_title a{font-weight: bold;}
+.box_mid_content{font-size:16px;line-height: 25px}
+.box_mid_content a{color:blue;}
+.box_mid_img{width:100%; overflow: hidden;}
+.box_mid_img img{width:100%;}
+.button{cursor:pointer;padding:4px 12px;border:1px solid #A3A3A3; background-color:#A3A3A3;color:white;border-radius:10%;}
+.bottom{border-top: 1px solid gray}
+.bottom div{text-align: center}
+li{list-style-type:none}
+.main a{color:black;}
+.slide img{width:100%;}
+.logininfo{background: url('../img/white_arrow_bottom.png') no-repeat right center ;background-size: 10px}
+.logininfo:hover{}
+.loginlist{position:absolute;top:40px;background-color: black;width:8%;min-width: 84px;display:none;}
+.loginlist a{padding: 0px 10px;height: 50px;}
+/*注册*/
+.rigister{padding:50px;border:3px solid #F0F0F0; position: absolute;left: 50%;margin-left:-20%; top:19%;text-align: center;}
+.registerdiv{;position: relative;padding:250px 0;}
+.regiset_top_title{text-align: center}
+.label{display:inline-block; width:100px;text-align:right}
+.submit{cursor: pointer;padding: 4px 42px;border: 1px solid #A3A3A3;background-color: red;
+    color: white;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 24px;
+}
+.regist_from{text-align: left;}
+.input_text{min-width:200px;height:30px;}
+.input_div{margin:10px 0;}
