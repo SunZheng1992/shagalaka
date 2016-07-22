@@ -20,9 +20,9 @@ return array(
     //'DB_FIELDS_CACHE'       => true,        // 启用字段缓存
     'FILE_UPLOAD_TYPE'		=>'qiniu',
     'UPLOAD_TYPE_CONFIG'	=>array(
-		'secrectKey'=>'Crsgerm0XyBBXJNULaOgB0BWAQsyHopIiHW2d-9U',
-		'accessKey'=>'RA0JRs6o-ml9Smeg2PvcUM1qlxwVt5B7hm50Hfl2',
-		'domain'=>'qq16364361',
+		'secrectKey'=>'',
+		'accessKey'=>'',
+		'domain'=>'',
 		'bucket'=>'sunzheng',
 		),
 
